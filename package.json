@@ -1,0 +1,19 @@
+{
+  "name": "solanadev.app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx esrun index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.1.0",
+    "@solana/web3.js": "^1.91.1",
+    "esrun": "^3.2.26",
+    "typescript": "^5.4.3"
+  }
+}
