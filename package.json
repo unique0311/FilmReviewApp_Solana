@@ -1,20 +1,28 @@
 {
-  "name": "solanadev.app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "solana-intro-frontend",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx esrun index.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@solana-developers/helpers": "^2.1.0",
-    "@solana/web3.js": "^1.91.1",
-    "dotenv": "^16.4.5",
-    "esrun": "^3.2.26",
-    "typescript": "^5.4.3"
+    "@solana/wallet-adapter-base": "^0.9.5",
+    "@solana/wallet-adapter-react": "^0.15.4",
+    "@solana/wallet-adapter-react-ui": "^0.9.6",
+    "@solana/wallet-adapter-wallets": "^0.15.5",
+    "@solana/web3.js": "^1.37.0",
+    "next": "12.1.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.2",
+    "typescript": "^4.6.3"
   }
 }
